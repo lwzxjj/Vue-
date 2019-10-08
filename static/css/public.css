@@ -1,0 +1,35 @@
+@charset "utf-8";
+* {padding: 0; margin: 0; font-weight: normal;}
+html {font-size: 100px;}
+body {font-family: 微软雅黑, 宋体, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,span,a,input,textarea,p,blockquote,th,td,header,nav,footer,article,
+section,aside,time,figure {margin: 0; padding: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+*,::after,::before {-moz-box-sizing: border-box;-webkit-box-sizing: border-box; box-sizing: border-box;}
+
+/* 去除标签自带样式 */
+img {border:none; vertical-align: text-bottom;}
+a {text-decoration: none; outline: none; cursor: pointer; color: #333333;}
+ul,li {list-style: none;}
+
+/* 去除表单自带样式 */
+select {border-radius: 0; -webkit-border-radius: 0; color: #878787; font-family: Lucida Bright,Arial; 
+    -moz-appearance: none;
+    -webkit-appearance: none;}
+select::-ms-expand {display: none;}     /*IE浏览器清除下拉箭头*/
+input:focus {outline: none;}
+input,button,select,textarea{outline:none; /*-webkit-appearance:none;*/}
+textarea{resize:none;/*-webkit-appearance:none;*/}
+textarea,input,select { background:none; border:none; margin:0; padding:0;}
+
+/* 浮动 */
+.fl {float: left;}
+.fr {float: right;}
+
+/* 清楚浮动 */
+.clearfix:before,.clearfix:after {content: '.'; display: block; height: 0;clear: both;overflow:hidden; }
+.clearfix {zoom: 1;}   /* IE < 8 */
+.clear {clear: both;}  
