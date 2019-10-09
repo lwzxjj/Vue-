@@ -1,6 +1,6 @@
-<template>
-  <div id="header">
-    <div class="w1200">
+<template id="header">
+    <header>
+        <div class="w1200">
       <div class="head_top">
         <div class="logo">
           <img src="../../static/image/logo-0605.png" />
@@ -35,7 +35,6 @@
             <a href="javascript:;">家长课堂</a>
           </li>
         </ul>
-
         <ul class="clearfix">
           <li>
             <img src="../../static/image/n3_01_17.png" alt />
@@ -52,15 +51,8 @@
         </ul>
       </div>
     </div>
-  </div>
+    </header>
 </template>
-
-<script>
-export default {
-  name: 'Header'
-
-}
-</script>
 
 <style scoped>
 #header {
@@ -68,11 +60,6 @@ export default {
   top: 0;
   z-index: 1001;
   background-color: #ffffff;
-}
-.w1200 {
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
 }
 .head_top {
   height: 99px;

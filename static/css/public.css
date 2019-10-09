@@ -3,7 +3,7 @@
 html {font-size: 100px;}
 body {font-family: 微软雅黑, 宋体, Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #333333;
+    color: #ffffff;
 }
 
 dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,span,a,input,textarea,p,blockquote,th,td,header,nav,footer,article,
@@ -33,3 +33,13 @@ textarea,input,select { background:none; border:none; margin:0; padding:0;}
 .clearfix:before,.clearfix:after {content: '.'; display: block; height: 0;clear: both;overflow:hidden; }
 .clearfix {zoom: 1;}   /* IE < 8 */
 .clear {clear: both;}  
+
+/* flex布局 */
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;}
+
+.w1200 {width: 1200px; margin: 0 auto;}
