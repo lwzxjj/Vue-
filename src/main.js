@@ -2,9 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import Index from './index.vue'
+import '../node_modules/swiper/css/swiper.min.css'
 
 // 引入公共样式
 import '../static/css/public.css'
+import '../static/css/index.css'
 
 // 引入注册组件文件
 import components from './utils/globalComponents'

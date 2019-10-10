@@ -1,0 +1,9 @@
+.bn_container {position: relative; padding-bottom: 30px;}
+.bn_container .img {width: 100%; height: 515px;}
+.bn_container .img img {width: 100%; height: 100%;}
+.bn_container .swiper-pagination {left: 50%; transform: translateX(-50%);}
+.bn_container .swiper-pagination-bullet {width: 26px; height: 6px; background-color: #e5e5e5; border-radius: 35px; margin: 0 5px;}
+.bn_container .swiper-pagination-bullet-active {background-color: #fe5839 !important;}
+
+.bn_container .w1200 {position: relative;}
+.banner_form {width: 330px; position: absolute; right: 0; bottom: 0; z-index: 1001;}
